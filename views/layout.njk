@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        {% block head %}
+            <title>Antonio</title>
+        {% endblock head %}
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="icon" href="https://raw.githubusercontent.com/rocketseat-education/bootcamp-launchbase-desafios-02/master/desafios/favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" href="styleDesafio.css">
+    </head>
+    <body>
+        <header>
+            <div class="links">
+                <a href="about">About</a>
+                <a href="courses">Courses</a>
+            </div>
+        </header>
+
+
+        {% block content %} {% endblock content %}
+    
+    </body>
+
+        <footer>
+        <div class="links">
+            <a href="https://github.com/rocketseat" target="_blank">Github</a>
+            <a href="https://pt-br.facebook.com/rocketseat/" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/rocketseat_oficial/" target="_blank">Instagram</a>
+        </div>
+    </footer>
+</html>

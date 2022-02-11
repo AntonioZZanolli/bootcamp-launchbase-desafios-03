@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header {
+    padding: 30px;
+    margin: 0;
+    background: rgb(18,18,20);
+}
+
+.links a {
+    padding: 30px;
+    margin: 0;
+    border: 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: #6C4FBB;
+}
+
+body {
+    background-color: #6C4FBB;
+}
+
+#sobre {
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px;
+}
+
+#sobre img {
+    border-radius: 50%;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+#sobre h1 {
+    font-size: 32px;
+    line-height: 42px;
+    font-weight: bold;
+}
+
+#sobre p {
+    max-width: 500px;
+    margin: 32px auto;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#sobre h2 {
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 10px;
+}
+
+#tecnologias li {
+    padding: 5px;
+}
+
+footer {
+    padding: 30px;
+    margin: 0;
+    background: rgb(18,18,20);
+}
+
+/* === CARDS === */
+
+.cards {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.card {
+    background-color: #7159c1;
+}
+
+.card__image-container img {
+    width: 100%;
+}
+
+.card__content,
+.card__info {
+    padding: 24px;
+}
+
+.card__ info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card__price {
+    background-color: #7159c1;
+    filter: brightness(90%);
+    
+}
+
+#notfound {
+    text-align: center;
+    margin: 220px auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 55px;
+}

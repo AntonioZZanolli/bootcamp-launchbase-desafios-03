@@ -1,0 +1,31 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+        <title>Primeiro HTML</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="icon" href="https://raw.githubusercontent.com/rocketseat-education/bootcamp-launchbase-desafios-02/master/desafios/favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" href="styleDesafio.css">
+{% endblock head %}
+
+
+{% block content %}
+
+<h1 style="text-align: center; margin:20px 2px;">Conteúdos</h1>
+
+<section class="cards">
+
+    <div class="card">
+        <div class="card__image-container">
+            <img src="https://blog.rocketseat.com.br/content/images/size/w2000/2020/07/como-fazer-um-bom-readme-preview.png" alt="README">
+        </div>
+        <div class="card__content">
+            <p>Como fazer um bom README</p>
+        </div>
+        <div class="card__info">
+            <p id="tempo-leitura">5 min</p>
+            <p id="data">23/10/2021</p>
+        </div>
+    </div>
+
+</section>
+{% endblock content %}
